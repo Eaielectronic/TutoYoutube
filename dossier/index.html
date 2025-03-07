@@ -3,71 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contactez-nous</title>
+    <title>Présentation de l'Entreprise</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
-        }
-        .container {
-            width: 80%;
-            margin: auto;
-            overflow: hidden;
         }
         header {
-            background: #333;
-            color: #fff;
-            padding-top: 30px;
-            min-height: 70px;
-            border-bottom: #77aaff 3px solid;
+            background-color: #4CAF50;
+            color: white;
+            padding: 1em 0;
+            text-align: center;
         }
-        header a {
-            color: #fff;
-            text-decoration: none;
-            text-transform: uppercase;
-            font-size: 16px;
+        .container {
+            padding: 2em;
         }
-        form {
-            background: #fff;
-            padding: 20px;
-            margin-top: 30px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        .section {
+            margin-bottom: 2em;
         }
-        form input, form textarea {
+        footer {
+            background-color: #f1f1f1;
+            text-align: center;
+            padding: 1em 0;
+            position: fixed;
             width: 100%;
-            padding: 10px;
-            margin: 10px 0;
-        }
-        form button {
-            background: #333;
-            color: #fff;
-            border: 0;
-            padding: 10px 20px;
-            cursor: pointer;
+            bottom: 0;
         }
     </style>
 </head>
 <body>
     <header>
-        <div class="container">
-            <h1>Contactez-nous</h1>
-        </div>
+        <h1>Nom de l'Entreprise</h1>
     </header>
     <div class="container">
-        <form action="/submit_form" method="post">
-            <label for="name">Nom:</label>
-            <input type="text" id="name" name="name" required>
-            
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" rows="5" required></textarea>
-            
-            <button type="submit">Envoyer</button>
-        </form>
+        <div class="section">
+            <h2>À Propos de Nous</h2>
+            <p>Bienvenue chez [Nom de l'Entreprise], où nous nous engageons à fournir des services de qualité supérieure. Notre mission est de [décrire la mission de l'entreprise].</p>
+        </div>
+        <div class="section">
+            <h2>Nos Services</h2>
+            <ul>
+                <li>Service 1</li>
+                <li>Service 2</li>
+                <li>Service 3</li>
+            </ul>
+        </div>
+        <div class="section">
+            <h2>Contactez-Nous</h2>
+            <p>Adresse: [Adresse de l'Entreprise]</p>
+            <p>Téléphone: [Numéro de Téléphone]</p>
+            <p>Email: [Adresse Email]</p>
+        </div>
     </div>
+    <footer>
+        <p>&copy; 2023 Nom de l'Entreprise. Tous droits réservés.</p>
+    </footer>
 </body>
-</html>
+</html></div>
